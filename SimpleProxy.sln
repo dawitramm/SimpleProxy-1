@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProxy.Library", "SimpleProxy.Library\SimpleProxy.Library.csproj", "{A4CF21C4-F0B2-45D6-9801-B651EBD0C43E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProxy.Console", "SimpleProxy.Console\SimpleProxy.Console.csproj", "{ED3D99FB-17A1-4470-A92B-1E1C187D1CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProxy.Service", "SimpleProxy.Service\SimpleProxy.Service.csproj", "{113517BF-2E15-4845-93BA-C01F294F6C1E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SimpleProxy.Installer", "SimpleProxy.Installer\SimpleProxy.Installer.vdproj", "{DAFA77BD-4C8E-4A00-AA5F-1D3B416F26CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4CF21C4-F0B2-45D6-9801-B651EBD0C43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CF21C4-F0B2-45D6-9801-B651EBD0C43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CF21C4-F0B2-45D6-9801-B651EBD0C43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CF21C4-F0B2-45D6-9801-B651EBD0C43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3D99FB-17A1-4470-A92B-1E1C187D1CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3D99FB-17A1-4470-A92B-1E1C187D1CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3D99FB-17A1-4470-A92B-1E1C187D1CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3D99FB-17A1-4470-A92B-1E1C187D1CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113517BF-2E15-4845-93BA-C01F294F6C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113517BF-2E15-4845-93BA-C01F294F6C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113517BF-2E15-4845-93BA-C01F294F6C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFA77BD-4C8E-4A00-AA5F-1D3B416F26CD}.Debug|Any CPU.ActiveCfg = Debug
+		{DAFA77BD-4C8E-4A00-AA5F-1D3B416F26CD}.Release|Any CPU.ActiveCfg = Release
+		{DAFA77BD-4C8E-4A00-AA5F-1D3B416F26CD}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
